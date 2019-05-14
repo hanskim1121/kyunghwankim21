@@ -1,3 +1,37 @@
-body{
+body.white{
   background-color: powderblue;
+  color: black;
+}
+/* <body class="white"> */
+body.black{
+  background-color: black;
+  color: white;
+}
+
+header {
+  border-bottom: 1px solid red;
+  padding: 10px;
+}
+nav {
+  border-right: 1px solid gray;
+  width:200px;
+  height:600px;
+  float:left;
+
+}
+nav ol { /* nav태그의  ol태그를 가리킨다*/
+  padding:0;
+  list-style: none;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 500px;
+}
+h2 {
+  font-size: 50px;
+  color: red;
+}
+#control{
+  float: right;
 }
